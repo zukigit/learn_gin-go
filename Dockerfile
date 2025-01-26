@@ -11,4 +11,6 @@ FROM alpine:3.21
 COPY --from=builder /app/test_gin .
 RUN chmod +x test_gin
 
+EXPOSE 8080
+
 ENTRYPOINT [ "./test_gin" ]
