@@ -1,6 +1,6 @@
 variables:
   IMAGE_NAME: zukidocker/oss
-  IMAGE_TAG: test_cicd-go
+  IMAGE_TAG: test_gin-go
 
 build_and_push_image:
     rules:
