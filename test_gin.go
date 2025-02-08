@@ -10,7 +10,7 @@ func main() {
 	gine_engine := gin.Default()
 	gine_engine.GET("/ping", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
-			"message": "hello waizar",
+			"message": "hello world from gitlab ide",
 		})
 	})
 
