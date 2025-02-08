@@ -1,0 +1,9 @@
+services:
+
+  psql:
+    image: postgres:15-alpine3.21
+    container_name: psql
+    ports:  
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: zabbix
